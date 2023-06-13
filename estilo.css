@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0a0a0;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #666;
+  }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para caixas de texto */
+  .input {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para uma tabela simples */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilo para uma classe específica */
+  .my-class {
+    color: #f00;
+    font-weight: bold;
+  }
+  

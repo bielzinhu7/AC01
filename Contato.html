@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+	<link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <h2 class = "titulo-header"> NEY em alto MAR </h2>
+        <img src="neymar.png" height="200px">
+    <nav class="navegacao" >
+        <ul class = "nav-lista">
+            <li class="nav-lista-item">
+                <a href="index.html" class="nav-link"> Home </a> 
+            </li>
+
+            <li class="nav-lista-item">
+                <a href="pacotes.html" class="nav-link"> Pacotes </a> 
+            </li>
+
+         </ul>
+    </nav>
+    </header>   
+	<br>
+	
+	<section>
+
+    <form action="XX" method="post">
+		<fieldset class="grupo">
+			<legend>Cadastro</legend>
+			<br>
+			<label class="tit" for="nome">Nome:</label> <br>
+			<input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo" />
+			<br>
+			<label class="tit" for="dataNascimento">Data Nascimento:</label> <br>
+			<input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" />
+			<br>		
+			<label class="tit" for="sexo">Sexo:</label> <br>
+			<input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+			<input type="radio" name="sexo" value="M" id="sexoMasculino" /><label for="sexoMasculino">Masculino</label>
+		    <br> 
+			<label class="tit" for="contato">Contato:</label> <br> 
+			<input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+			<input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+			<input type="text" name="contato" id="contato" />
+			<br>
+			<label class="tit" for="duvidaArquivo">Dúvidas:</label> <br>
+			<textarea name="duvidaArquivo" cols="60" rows="2" id="duvidaArquivo"></textarea>
+			<br>
+			<label class="tit" for="Pacote">Escolha seu pacote:</label> <br>
+			<select name="Pacote" id="Pacote"> <br>
+				<option value="Individual">Individual</option>
+				<option value="Dupla">Dupla</option>
+				<option value="Triplo">Triplo</option>
+                <option value="Quadruplo">Quadruplo</option>
+			</select>
+		    <br>			
+			<input name="btnEnvio" type="submit" value="Enviar" />			
+			&nbsp;	&nbsp; &nbsp;&nbsp;&nbsp;		
+			<input name="btnReset" type="reset" value="Limpar" />
+			
+		</fieldset>
+	</form>
+	</section>
+<br>
+<footer class="main-footer" >
+	<section  class="foot-section" >
+		<h1>Contato</h1>
+		<p>(xx) xxxx-xxxx</p>
+		<p>auau@example.com</p>
+	</section>
+	<section  class="foot-section">
+		<h1>Endereço</h1>
+		<p>Avenida x</p>
+		<p>São Paulo, SP</p>
+	</section>
+	<section  class="foot-section">
+		<h1>Funcionamento</h1>
+		<p>Dia da Semana </p>
+		<p>Horário </p>
+	</section>
+	<br>
+	<br>
+	<p id = "copyright">Copyright &copy; 2023 Blog. All Rights Reserved</p>
+</footer>
+</body>
+
+</html>
+</body>
+</html>
